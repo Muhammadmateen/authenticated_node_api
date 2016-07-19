@@ -1,0 +1,29 @@
+
+<form ng-submit="signup.createUser()">
+    <label for="email">Email</label>
+        <input type="email" name="email" id="email" ng-model="signup.user.email">
+    <br><br>
+    <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" ng-model="signup.user.pass">
+    <br><br>
+
+    <label>Gender :</label>
+        <input type="radio" name="male" id="male" value="Male" ng-model="signup.user.gender">
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female" value="Female" ng-model="signup.user.gender">
+        <label for="female">Female</label>
+
+    <br><br>
+    
+    <label for="teacher">
+    <input type="checkbox" name="teacher" id="teacher" value="teacher" ng-model="signup.user.details.teacher">I am a Teacher</label><br>
+    <label for="professional">
+    <input type="checkbox" name="professional" id="professional" value="professional" ng-model="signup.user.details.professional">I am a professional</label><br>
+    <label for="student">
+    <input type="checkbox" name="student" id="student" value="student" ng-model="signup.user.details.student">I am a student</label>
+
+    <br><br>
+
+    <button type="submit">Sign Up</button>
+
+</form>

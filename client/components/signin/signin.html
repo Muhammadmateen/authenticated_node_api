@@ -1,0 +1,22 @@
+
+
+<form ng-submit="signin.login()">
+
+    <label for="email">Email
+        <input type="email" name="email" id="email" ng-model="signin.user.email">
+    </label>
+    
+    <br><br>
+
+    <label for="pass">Password
+        <input type="password" name="pass" id="pass" ng-model="signin.user.pass">
+    </label>
+
+    <br><br>
+
+    <button type="submit">Sign In</button>
+
+</form>
+
+
+    <a ui-sref="signup">Create account</a>

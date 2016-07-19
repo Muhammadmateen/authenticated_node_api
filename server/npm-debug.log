@@ -1,0 +1,197 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   'body_parser',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of E:\Mateen Practice\Auth Node Api\package.json
+5 warn package.json auth_api@1.0.0 No description
+6 warn package.json auth_api@1.0.0 No repository field.
+7 warn package.json auth_api@1.0.0 No README data
+8 verbose readDependencies loading dependencies from E:\Mateen Practice\Auth Node Api\package.json
+9 silly cache add args [ 'express', null ]
+10 verbose cache add spec express
+11 silly cache add args [ 'body_parser', null ]
+12 verbose cache add spec body_parser
+13 silly cache add parsed spec Result {
+13 silly cache add   raw: 'express',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'express',
+13 silly cache add   rawSpec: '',
+13 silly cache add   spec: 'latest',
+13 silly cache add   type: 'tag' }
+14 silly addNamed express@latest
+15 verbose addNamed "latest" is being treated as a dist-tag for express
+16 info addNameTag [ 'express', 'latest' ]
+17 silly mapToRegistry name express
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'express',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   name: 'express',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/express
+22 verbose addNameTag registry:https://registry.npmjs.org/express not in flight; fetching
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'body_parser',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'body_parser',
+23 silly cache add   rawSpec: '',
+23 silly cache add   spec: 'latest',
+23 silly cache add   type: 'tag' }
+24 silly addNamed body_parser@latest
+25 verbose addNamed "latest" is being treated as a dist-tag for body_parser
+26 info addNameTag [ 'body_parser', 'latest' ]
+27 silly mapToRegistry name body_parser
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'body_parser',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   name: 'body_parser',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/body_parser
+32 verbose addNameTag registry:https://registry.npmjs.org/body_parser not in flight; fetching
+33 verbose request uri https://registry.npmjs.org/body_parser
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 12:17:08 PM
+36 verbose request id 807810d74941ff3f
+37 http request GET https://registry.npmjs.org/body_parser
+38 verbose request uri https://registry.npmjs.org/express
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 12:17:09 PM
+41 verbose etag "9K3XZ6DFNDLUMMM0LNPMSYK6J"
+42 http request GET https://registry.npmjs.org/express
+43 http 200 https://registry.npmjs.org/express
+44 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+44 verbose headers   etag: '"8F77RXKEU246PM14KTTZIK4EC"',
+44 verbose headers   'content-type': 'application/json',
+44 verbose headers   'content-encoding': 'gzip',
+44 verbose headers   'cache-control': 'max-age=300',
+44 verbose headers   'content-length': '55607',
+44 verbose headers   'accept-ranges': 'bytes',
+44 verbose headers   date: 'Tue, 19 Jul 2016 07:17:02 GMT',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   age: '212',
+44 verbose headers   connection: 'keep-alive',
+44 verbose headers   'x-served-by': 'cache-fra1244-FRA',
+44 verbose headers   'x-cache': 'HIT',
+44 verbose headers   'x-cache-hits': '3',
+44 verbose headers   'x-timer': 'S1468912622.487278,VS0,VE0',
+44 verbose headers   vary: 'Accept-Encoding' }
+45 silly get cb [ 200,
+45 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+45 silly get     etag: '"8F77RXKEU246PM14KTTZIK4EC"',
+45 silly get     'content-type': 'application/json',
+45 silly get     'content-encoding': 'gzip',
+45 silly get     'cache-control': 'max-age=300',
+45 silly get     'content-length': '55607',
+45 silly get     'accept-ranges': 'bytes',
+45 silly get     date: 'Tue, 19 Jul 2016 07:17:02 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     age: '212',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-fra1244-FRA',
+45 silly get     'x-cache': 'HIT',
+45 silly get     'x-cache-hits': '3',
+45 silly get     'x-timer': 'S1468912622.487278,VS0,VE0',
+45 silly get     vary: 'Accept-Encoding' } ]
+46 verbose get saving express to C:\Users\AQ\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+47 verbose correctMkdir C:\Users\AQ\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+48 silly addNameTag next cb for express with tag latest
+49 silly addNamed express@4.14.0
+50 verbose addNamed "4.14.0" is a plain semver version for express
+51 silly mapToRegistry name express
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry data Result {
+54 silly mapToRegistry   raw: 'express',
+54 silly mapToRegistry   scope: null,
+54 silly mapToRegistry   name: 'express',
+54 silly mapToRegistry   rawSpec: '',
+54 silly mapToRegistry   spec: 'latest',
+54 silly mapToRegistry   type: 'tag' }
+55 silly mapToRegistry uri https://registry.npmjs.org/express
+56 verbose addRemoteTarball https://registry.npmjs.org/express/-/express-4.14.0.tgz not in flight; adding
+57 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.14.0.tgz',
+57 verbose addRemoteTarball   'c1ee3f42cdc891fb3dc650a8922d51ec847d0d66' ]
+58 info retry fetch attempt 1 at 12:17:10 PM
+59 info attempt registry request try #1 at 12:17:10 PM
+60 http fetch GET https://registry.npmjs.org/express/-/express-4.14.0.tgz
+61 http fetch 200 https://registry.npmjs.org/express/-/express-4.14.0.tgz
+62 http 404 https://registry.npmjs.org/body_parser
+63 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+63 verbose headers   etag: '"1FN33H7U7DQMLDBI38J6ASB3S"',
+63 verbose headers   'content-type': 'application/json',
+63 verbose headers   'cache-control': 'max-age=0',
+63 verbose headers   'content-length': '407',
+63 verbose headers   'accept-ranges': 'bytes',
+63 verbose headers   date: 'Tue, 19 Jul 2016 07:17:03 GMT',
+63 verbose headers   via: '1.1 varnish',
+63 verbose headers   age: '0',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'x-served-by': 'cache-fra1222-FRA',
+63 verbose headers   'x-cache': 'MISS',
+63 verbose headers   'x-cache-hits': '0',
+63 verbose headers   'x-timer': 'S1468912622.432796,VS0,VE727',
+63 verbose headers   vary: 'Accept-Encoding' }
+64 silly get cb [ 404,
+64 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+64 silly get     etag: '"1FN33H7U7DQMLDBI38J6ASB3S"',
+64 silly get     'content-type': 'application/json',
+64 silly get     'cache-control': 'max-age=0',
+64 silly get     'content-length': '407',
+64 silly get     'accept-ranges': 'bytes',
+64 silly get     date: 'Tue, 19 Jul 2016 07:17:03 GMT',
+64 silly get     via: '1.1 varnish',
+64 silly get     age: '0',
+64 silly get     connection: 'keep-alive',
+64 silly get     'x-served-by': 'cache-fra1222-FRA',
+64 silly get     'x-cache': 'MISS',
+64 silly get     'x-cache-hits': '0',
+64 silly get     'x-timer': 'S1468912622.432796,VS0,VE727',
+64 silly get     vary: 'Accept-Encoding' } ]
+65 silly fetchAndShaCheck shasum c1ee3f42cdc891fb3dc650a8922d51ec847d0d66
+66 verbose addTmpTarball C:\Users\AQ\AppData\Local\Temp\npm-6268-94346d64\registry.npmjs.org\express\-\express-4.14.0.tgz not in flight; adding
+67 verbose addTmpTarball already have metadata; skipping unpack for express@4.14.0
+68 verbose correctMkdir C:\Users\AQ\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+69 silly cache afterAdd express@4.14.0
+70 verbose afterAdd C:\Users\AQ\AppData\Roaming\npm-cache\express\4.14.0\package\package.json not in flight; writing
+71 verbose correctMkdir C:\Users\AQ\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+72 verbose afterAdd C:\Users\AQ\AppData\Roaming\npm-cache\express\4.14.0\package\package.json written
+73 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/body_parser
+73 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+73 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+73 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+73 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+73 verbose stack     at emitTwo (events.js:87:13)
+73 verbose stack     at Request.emit (events.js:172:7)
+73 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+73 verbose stack     at emitOne (events.js:82:20)
+73 verbose stack     at Request.emit (events.js:169:7)
+73 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+74 verbose statusCode 404
+75 verbose pkgid body_parser
+76 verbose cwd E:\Mateen Practice\Auth Node Api\server
+77 error Windows_NT 6.3.9600
+78 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express" "body_parser" "--save"
+79 error node v4.4.5
+80 error npm  v2.15.5
+81 error code E404
+82 error 404 Registry returned 404 for GET on https://registry.npmjs.org/body_parser
+82 error 404
+82 error 404 'body_parser' is not in the npm registry.
+82 error 404 You should bug the author to publish it (or use the name yourself!)
+82 error 404 It was specified as a dependency of 'auth_api'
+82 error 404
+82 error 404 Note that you can also install from a
+82 error 404 tarball, folder, http url, or git url.
+83 verbose exit [ 1, true ]
