@@ -7,7 +7,10 @@
 
     var app = angular.module("myApp",['ui.router'])
 
-        .config(function ($stateProvider,$urlRouterProvider) {
+        .config(function ($stateProvider,$urlRouterProvider,$httpProvider) {
+
+            //Default Headers
+            //$httpProvider.defaults.headers.common['Authorization'] = "kalalalalalalalaalalaal";
             
             $stateProvider.state('signin',
             {
@@ -23,6 +26,20 @@
                 controller:'signupController',
                 controllerAs:'signup'
             })
+
+                .state('home',{
+                    url:'/home',
+                    templateUrl:'./components/home/home.html',
+                    controller:'homeController',
+                    controllerAs:'home'
+                })
+
+                .state('profile',{
+                    url:'/profile',
+                    templateUrl:'./components/profile/profile.html',
+                    controller:'profileController',
+                    controllerAs:'profile'
+                })
 
             // .state('home',{
             //     url:'/home',
@@ -41,7 +58,7 @@
             // })
 
 
-            $urlRouterProvider.otherwise("signin");
+            $urlRouterProvider.otherwise("signup");
 
         });
 
